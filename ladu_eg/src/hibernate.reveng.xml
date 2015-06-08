@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="public" match-name="customer"/>
+  <table-filter match-schema="public" match-name="customer_price_list"/>
+  <table-filter match-schema="public" match-name="employee"/>
+  <table-filter match-schema="public" match-name="enterprise"/>
+  <table-filter match-schema="public" match-name="item"/>
+  <table-filter match-schema="public" match-name="item_action"/>
+  <table-filter match-schema="public" match-name="item_action_type"/>
+  <table-filter match-schema="public" match-name="item_attribute"/>
+  <table-filter match-schema="public" match-name="item_attribute_type"/>
+  <table-filter match-schema="public" match-name="item_price_list"/>
+  <table-filter match-schema="public" match-name="item_store"/>
+  <table-filter match-schema="public" match-name="item_type"/>
+  <table-filter match-schema="public" match-name="person"/>
+  <table-filter match-schema="public" match-name="price_list"/>
+  <table-filter match-schema="public" match-name="price_list_status_type"/>
+  <table-filter match-schema="public" match-name="store"/>
+  <table-filter match-schema="public" match-name="type_attribute"/>
+  <table-filter match-schema="public" match-name="unit_type"/>
+  <table-filter match-schema="public" match-name="user_account"/>
+</hibernate-reverse-engineering>

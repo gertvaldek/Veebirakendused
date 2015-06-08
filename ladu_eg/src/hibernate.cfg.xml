@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://imbi.ld.ttu.ee/r40</property>
+        <property name="connection.username">tt01</property>
+        <property name="connection.password">tt01</property>
+        
+        <property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <mapping class="db.Address"/> 
+        <mapping class="db.AddressType"/>
+        <mapping class="db.Contact"/>  
+        <mapping class="db.ContactType"/>  
+        <mapping class="db.Customer"/>
+        <mapping class="db.CustomerPriceList"/>   
+        <mapping class="db.Employee"/>   
+        <mapping class="db.EmployeeRole"/> 
+        <mapping class="db.EmployeeRoleType"/> 
+        <mapping class="db.Enterprise"/> 
+        <mapping class="db.EnterprisePersonRelation"/> 
+        <mapping class="db.EntPerRelationType"/> 
+        <mapping class="db.Item"/> 
+        <mapping class="db.ItemAction"/> 
+        <mapping class="db.ItemActionType"/> 
+        <mapping class="db.ItemAttribute"/> 
+        <mapping class="db.ItemAttributeType"/> 
+        <mapping class="db.ItemPriceList"/> 
+        <mapping class="db.ItemStore"/> 
+        <mapping class="db.ItemType"/> 
+        <mapping class="db.Person"/> 
+        <mapping class="db.PriceList"/> 
+        <mapping class="db.PriceListStatusType"/> 
+        <mapping class="db.Store"/> 
+        <mapping class="db.StructUnit"/> 
+        <mapping class="db.SubjectAttribute"/> 
+        <mapping class="db.SubjectAttributeType"/> 
+        <mapping class="db.SubjectType"/> 
+        <mapping class="db.TypeAttribute"/> 
+        <mapping class="db.UnitType"/> 
+        <mapping class="db.UserAccount"/> 
+
+    </session-factory>
+
+</hibernate-configuration>
