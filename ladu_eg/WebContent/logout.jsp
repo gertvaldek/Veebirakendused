@@ -9,6 +9,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+.form-control {
+	width:100px;
+}
+
+</style>
 <body>
 
 <%
@@ -16,7 +22,7 @@ UserAccount currentuser=(UserAccount)request.getSession().getAttribute("user");
 %>
 <% if(currentuser!=null) {%>
 <form action="${pageContext.request.contextPath }/" method="post">
-<% out.println("<input type=\"submit\" value=\"Logi välja!\"/>"); %>
+<% out.println("<input type=\"submit\" class=\"form-control\" value=\"Logi välja!\"/>"); %>
 </form>
 <%} %>
 <% out.println("<a href='" + request.getContextPath()+"/'>Pealeht</a>"); %>

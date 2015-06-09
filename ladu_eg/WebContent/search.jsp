@@ -5,26 +5,57 @@
 <%@page import="model.SearchForm"%>
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Toote otsing</title>
 </head>
+<style>
+.input-group {
+	width:400px;
+}
+
+</style>
 <body>
 <%@ include file="logout.jsp" %>
-	<h3>Toote otsing</h3>
+	<h1>Toote otsing <small>Väga mugav</small></h1>
+
 	<%if(request.getAttribute("form") != null){
 	    SearchForm form = (SearchForm) request.getAttribute("form");%>
 	
 	<form action="" method="POST">
 		<table>
-		<tr><td>Nimetus</td><td><input type="text" name="name" value="<%=form.getName()%>"/></td></tr>
-		<tr><td>Kirjeldus</td><td><input type="text" name="description"  value="<%=form.getDescription()%>"/></td></tr>
-		<tr><td>Tootja kood</td><td><input type="text" name="producer_code"  value="<%=form.getProducerCode()%>"/></td></tr>
-		<tr><td>Tootja</td><td><input type="text" name="producer" value="<%=form.getProducer()%>" /></td></tr>
-		<tr><td>Arv laos</td><td><input type="text" name="quantity" value="<%=form.getQuantity()%>" /></td></tr>
-		<tr><td>Müügihind</td><td><input type="text" name="sale_price" value="<%=form.getSalePrice()%>" /></td></tr>
-		<tr><td>Laohind</td><td><input type="text" name="store_price" value="<%=form.getStorePrice()%>" /></td></tr>
+		<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Nimetus</span>
+  <input type="text" class="form-control" name="name" value="<%=form.getName()%>"  aria-describedby="sizing-addon2">
+</div><p>
+		<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Kirjeldus</span>
+  <input type="text" class="form-control" name="description"  value="<%=form.getDescription()%>" aria-describedby="sizing-addon2">
+</div><p>
+		
+	<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Tootja kood</span>
+  <input type="text" class="form-control" name="producer_code"  value="<%=form.getProducerCode()%>" aria-describedby="sizing-addon2">
+</div><p>
+	<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Tootja</span>
+  <input type="text" class="form-control" name="producer" value="<%=form.getProducer()%>" aria-describedby="sizing-addon2">
+</div><p>
+	<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Arv laos</span>
+  <input type="text" class="form-control" name="quantity" value="<%=form.getQuantity()%>" aria-describedby="sizing-addon2">
+</div><p>
+		<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Müügihind</span>
+  <input type="text" class="form-control" name="sale_price" value="<%=form.getSalePrice()%>" aria-describedby="sizing-addon2">
+</div><p>
+		<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">Laohind</span>
+  <input type="text" class="form-control" name="store_price" value="<%=form.getStorePrice()%>" aria-describedby="sizing-addon2">
+</div><p>
+
 		<%if(form.getAttributes().size() == 0){
-		    out.println("<tr><td>Attribuut</td><td><input type='text' name='attribute' value='"+form.getAttribute()+"'/></td></tr>");
+		    out.println("<tr><td>Attribuut</td><td><input type='text' class='form-control' name='attribute' value='"+form.getAttribute()+"'/></td></tr>");
 		}else{
 		    out.println("<tr><td colspan'2'>------------ attribuudid ---------</td></tr>");
 		    out.println("<tr><td>Toote tüüp</td><td>"+form.getType()+
@@ -37,7 +68,7 @@
 		} %>
 		
 		</table>
-		<input type="submit" value="Otsi" />
+		<input type="submit" class="btn btn-default" value="Otsi" />
 	</form>
 	<%} %>
 	<div>

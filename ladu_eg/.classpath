@@ -3,53 +3,49 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/aspectjrt-1.6.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/commons-lang3-3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/hibernate-commons-annotations-4.0.5.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/hibernate-core-4.3.9.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/hibernate-entitymanager-4.3.9.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/hibernate-validator-4.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jackson-annotations-2.2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jackson-core-2.2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jackson-databind-2.2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jandex-1.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/javassist-3.18.1-GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jboss-logging-3.1.3.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jboss-logging-annotations-1.2.0.Beta1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jcl-over-slf4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/postgresql-9.0-801.jdbc4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-aop-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-beans-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-context-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-core-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-data-commons-core-1.1.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-data-jpa-1.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-expression-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-jdbc-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-orm-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-tx-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-web-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/spring-webmvc-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/validation-api-1.0.0.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Enelin/Desktop/Ladulibs/xml-apis-1.0.b2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_40">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/commons-lang3-3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/hibernate-core-4.3.9.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/hibernate-entitymanager-4.3.9.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jackson-annotations-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jackson-databind-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-orm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-tx-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/aspectjrt-1.6.8.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-data-commons-core-1.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-data-jpa-1.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/hibernate-validator-4.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/postgresql-9.0-801.jdbc4.jar"/>
+	<classpathentry kind="lib" path="/Users/Gert/Documents/Java/Ladulibs/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
